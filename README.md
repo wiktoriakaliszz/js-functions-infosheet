@@ -1,5 +1,5 @@
 # Javascript functions
-a collaboration project of Danny, Gert & Wendy
+*a collaboration project between Danny, Gert & Wendy*
 ## About functions
 The first thing we need to know is that in Javascript, functions are first-class objects.
 ### Types of functions
