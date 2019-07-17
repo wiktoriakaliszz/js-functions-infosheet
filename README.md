@@ -44,6 +44,8 @@ scope = order in which the code is executed
 
 ### Did you know...
 * A function can have up to 255 parameters!
+* Functions are objects.
+* Variables that are declared within a function are only available in the scope of that function.
 
 <hr>
 
