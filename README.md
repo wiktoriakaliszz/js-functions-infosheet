@@ -1,7 +1,9 @@
 # Javascript functions
 *a collaboration project between Danny, Gert & Wendy*
+
 ## About functions
 The first thing we need to know is that in Javascript, functions are first-class objects.
+
 ### Types of functions
 * **built-in functions** = functions that already excist in javascript libraries.
 * **custom functions** = a function that you wrote yourself.
@@ -42,7 +44,9 @@ scope = order in which the code is executed
 
 ### Did you know...
 * A function can have up to 255 parameters!
+
 <hr>
+
 ## SYNTAX
 
 ### Anonymous function
@@ -96,6 +100,7 @@ let name = () => statement;
 let name = parameter => statement;
 ```
 <hr>
+
 ## Built-in functions
 Javascript has already some built-in functions that you can use. Here's some examples. If you want to know more, please visit   [MDN resource](https://developer.mozilla.org/nl/docs/Web/JavaScript/Reference/Global_Objects).
 * Number functions
@@ -118,7 +123,9 @@ Rhymes with evil! Don't use this!
 **join()**
 **Date()**
 **...**
+
 <hr>
+
 ## Callback functions
 A callback function is a function that is passed as an argument to another function, to be “called back” at a later time. Functions that do this are called **higher-order functions**. Any function that is passed as an argument is called a **callback function**.
 
@@ -165,6 +172,7 @@ createQuote("give me the cookie!", logQuote); // 1
 
 
 <hr>
+
 ## Interesting links
 * [MDN documentation on functions](https://developer.mozilla.org/nl/docs/Web/JavaScript/Reference/Functions)
 * [Function basics](http://javascript.info/function-basics)
@@ -173,6 +181,7 @@ createQuote("give me the cookie!", logQuote); // 1
 * [Eloquent Javascript - 03 functions](https://eloquentjavascript.net/03_functions.html) (also available as pdf)
 
 <hr>
+
 ## Online tutorials
 * **YouTube** - [LearnWebCode - 10 days of Javascript](https://www.youtube.com/watch?v=dc-2t26Vuhs) - free
 * **Udemy** - [The complete javascript course](https://www.udemy.com/the-complete-javascript-course/) - paid
