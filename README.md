@@ -120,9 +120,33 @@ Rhymes with evil! Don't use this!
 **...**
 <hr>
 ## Callback functions
-A callback function is a function that is passed as an argument to another function, to be “called back” at a later time. A function that accepts other functions as arguments is called a **higher-order function**, which contains the logic for when the callback function gets executed.
-[More info...](https://guide.freecodecamp.org/javascript/callback-functions/)
+A callback function is a function that is passed as an argument to another function, to be “called back” at a later time. Functions that do this are called **higher-order functions**. Any function that is passed as an argument is called a **callback function**.
 
+Callbacks are a way to make sure certain code doesn’t execute until other code has already finished execution.
+
+Some of the build-in functions of JavaScript are Higher-Order-functions.
+
+**More info:**
+
+* [What the heck is a callback function?](https://codeburst.io/javascript-what-the-heck-is-a-callback-aba4da2deced)
+* [MDN - Callback functions](https://developer.mozilla.org/en-US/docs/Glossary/Callback_function)
+* [freecodecamp - callback functions](https://guide.freecodecamp.org/javascript/callback-functions/)
+
+**Example**
+A callback functions is passed as ***the last*** parameter of a function.
+
+**You can define the callback function IN the function call.**
+```JavaScript
+function doHomework(subject, callback) {
+  alert(`Starting my ${subject} homework.`);
+  callback();
+}
+
+doHomework('math', function() {
+  alert('Finished my homework');
+});
+```
+**You can define the callback function seperate from the higher-order-function.**
 ```JavaScript
 function myCallbackFunction(parameter, callback){
   let cookies = "I want a cookie, " + parameter;
@@ -139,13 +163,18 @@ createQuote("give me the cookie!", logQuote); // 1
 // I want a cookie, give me the cookie!
 ```
 
+
 <hr>
 ## Interesting links
 * [MDN documentation on functions](https://developer.mozilla.org/nl/docs/Web/JavaScript/Reference/Functions)
 * [Function basics](http://javascript.info/function-basics)
 * [Javascript for cats](http://jsforcats.com/)
 * [5 dogs that represent Javascript](https://medium.com/@sporks/5-dogs-that-represent-javascript-ee3d42798c3c)
+* [Eloquent Javascript - 03 functions](https://eloquentjavascript.net/03_functions.html) (also available as pdf)
+
 <hr>
 ## Online tutorials
 * **YouTube** - [LearnWebCode - 10 days of Javascript](https://www.youtube.com/watch?v=dc-2t26Vuhs) - free
 * **Udemy** - [The complete javascript course](https://www.udemy.com/the-complete-javascript-course/) - paid
+* **CoderByte** - [Coding challenges & courses](https://coderbyte.com/challenges) - partially free
+* **CodeWars** - [Coding challenges](https://www.codewars.com/)
