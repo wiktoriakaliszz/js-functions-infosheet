@@ -97,7 +97,7 @@ let name = (parameters) => statement;
 let name = () => statement;
 ```
 
-**Parentheses and curly brackets are optional if your function has no parameters and only 1 statement.**
+**Parentheses and curly brackets are optional if your function has 1 parameters and only 1 statement.**
 ```javascript
 let name = parameter => statement;
 ```
